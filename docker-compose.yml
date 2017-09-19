@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/ehrmantraut
+  db:
+    image: influxdb
