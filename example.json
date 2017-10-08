@@ -1,0 +1,18 @@
+{ "fields" : {
+		"engine_temperature": 850.4,
+		"rpm" : 7504,
+		"throttle" : 0.75,
+		"maf" : 0.67,
+		"geo" : {
+			"latitude" : -3.542332,
+			"longitude" : 1.233232
+		},
+		"gear" : 4,
+		"speed" : 250.6
+	},
+	"tags" : {
+		"car_id" : 10001,
+		"lap" : 3
+	},
+	"time" : 1496510681952374020
+}
