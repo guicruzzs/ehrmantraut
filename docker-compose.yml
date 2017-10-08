@@ -6,5 +6,14 @@ services:
       context: .
     volumes:
       - .:/ehrmantraut
+    command: /ehrmantraut/docker/entrypoint.sh
   db:
     image: influxdb
+    environment:
+      INFLUXDB_DB: ehrmantraut
+      INFLUXDB_USER: ehrmantraut
+      INFLUXDB_USER_PASSWORD: test123
+  grafana:
+    image: grafana/grafana
+    ports:
+      - 3000:3000
